@@ -1,0 +1,22 @@
+{
+  "name": "gdl004-movie-challenge",
+  "version": "1.0.0",
+  "description": "Con la llegada de la pandemia generada por el COVID-19 a nuestras vidas\r las plataformas para ver películas en la nube, como Netflix,\r Amazon Prime Video, HBO o inclusive YouTube, se han convertido en una\r necesidad básica.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dionisiaca/GDL004-movie-challenge.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dionisiaca/GDL004-movie-challenge/issues"
+  },
+  "homepage": "https://github.com/Dionisiaca/GDL004-movie-challenge#readme"
+}
