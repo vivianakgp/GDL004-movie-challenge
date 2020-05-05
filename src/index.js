@@ -1,6 +1,3 @@
-import { dataAssignment } from "./data.js";
-
-dataAssignment();
 //router
 import { changeView } from "./router/router.js";
 
