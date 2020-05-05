@@ -1,22 +1,29 @@
 {
   "name": "gdl004-movie-challenge",
   "version": "1.0.0",
-  "description": "Con la llegada de la pandemia generada por el COVID-19 a nuestras vidas\r las plataformas para ver películas en la nube, como Netflix,\r Amazon Prime Video, HBO o inclusive YouTube, se han convertido en una\r necesidad básica.",
+  "description": "## Preámbulo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dionisiaca/GDL004-movie-challenge.git"
+    "url": "git+https://github.com/MonseSalasVi/GDL004-movie-challenge.git"
   },
-  "keywords": [
-    "movies"
-  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dionisiaca/GDL004-movie-challenge/issues"
+    "url": "https://github.com/MonseSalasVi/GDL004-movie-challenge/issues"
   },
-  "homepage": "https://github.com/Dionisiaca/GDL004-movie-challenge#readme"
+  "homepage": "https://github.com/MonseSalasVi/GDL004-movie-challenge#readme",
+  "dependencies": {
+    "editorconfig": "^0.15.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "serve": "^11.0.2"
+  }
 }
