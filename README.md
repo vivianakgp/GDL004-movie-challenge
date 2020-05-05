@@ -1,11 +1,11 @@
 # MOVIE APP 🍿
-_Find the best movies at maximum spped_
+_Find the best movies at maximum spped._
 
-![#quedateencasa](https://www.google.com/search?q=gifs+movies&sxsrf=ALeKk02UDY4yJKAp5YKw3Ox1-3Q4NMiNAQ:1588618786801&tbm=isch&source=iu&ictx=1&fir=_Oui6KEJcQaPDM%253A%252CCxN7KHVZi1yPPM%252C_&vet=1&usg=AI4_-kS_ndHLEhHhJGlptDtX_KjAsT7vcg&sa=X&ved=2ahUKEwiY4-GT8prpAhVkHzQIHVLRBEEQ9QEwC3oECAkQKA#imgrc=wJsKoVjGkgAB_M&imgdii=MBUZHX8tePEv1M)
+![#quedateencasa](https://media1.tenor.com/images/a79023c01372d18caedda850481aed68/tenor.gif?itemid=4572206)
 
 ### Description 📋
 
-_Get a random recommendation by clicking a button or use the search engine to find your favorite movies_
+_Get a random recommendation by clicking a button or use the search engine to find your favorite movies._
 
 ## Built with 🛠️
 
@@ -16,11 +16,11 @@ _Get a random recommendation by clicking a button or use the search engine to fi
 
 ## Reference 📌
 
-We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge)- as a reference to the talent fest challenge .
+We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge)- as a reference to the talent fest challenge.
 
 ## Authors ✒️
 
-_This project was built with the collaboration of_
+_This project was built with the collaboration of..._
 
 * **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
 * **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
