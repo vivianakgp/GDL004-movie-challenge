@@ -1,23 +1,20 @@
-/* import { example } from '../../src/example.js'; */
+import example from '../../example.js';
 
 export default () => {
   const viewHome = `
   <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>`;
 
+  let movies = ''
+   for (let movie of example.results) {
+    movies +=  '<img src="' + movie.image + '"> <h1>' + movie.name + '</h1>' + '<h1>' + "Country: " + movie.Country +
+    '</h1>' + '<h1>' + " Language: " + movie.Language + '</h1>'
+    
+  };
 
-  
+    
   const divElemt = document.createElement('div');
-  divElemt.innerHTML = viewHome;
+  divElemt.innerHTML = movies;
   return divElemt;
 };
 
-/* for (let movie of example) {
-  const template = document.createElement('div');
-  template.classList.add('Movie');
-  template.innerHTML = '<img src="' + movie.img + '"> <h1>' + movie.name + '</h1>' + '<h1>' + "Name: " + movie.contry +
-  '</h1>' + '<h1>' + " Type: " + movie.languaje + '</h1>'
-  
-  document.getElementById('container').appendChild(template); 
- 
-};
-*/
+
