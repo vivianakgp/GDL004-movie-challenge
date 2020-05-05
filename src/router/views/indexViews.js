@@ -1,6 +1,6 @@
-import Home from './formcount.js';
-import Kids from './login.js';
-import Adult from './home.js';
+import Home from './home.js';
+import Kids from './kids.js';
+import Adult from './adults.js';
 
 const components = {
   home: Home,
