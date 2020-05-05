@@ -1,44 +1,28 @@
-# Stay-Home Movie Challenge
+# MOVIE APP 🍿
+_Find the best movies at maximum spped._
 
-## Preámbulo
+![#quedateencasa](https://media1.tenor.com/images/a79023c01372d18caedda850481aed68/tenor.gif?itemid=4572206)
 
-Con la llegada de la pandemia generada por el COVID-19 a nuestras vidas
-las plataformas para ver películas en la nube, como Netflix,
-Amazon Prime Video, HBO o inclusive YouTube, se han convertido en una
-necesidad básica.
+### Description 📋
 
-![#quedateencasa](https://media.tenor.com/images/b6bc059836dfea8e643b77a347470d25/tenor.gif)
+_Get a random recommendation by clicking a button or use the search engine to find your favorite movies._
 
-## Resumen del proyecto
+## Built with 🛠️
 
-Durante estos días crearán el producto que quieran alrededor del mundo
-de las películas, que les permita sobrellevar el distanciamiento social.
-Puede ser un sitio de reseñas de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en algún servicio de streaming,
-una replica de netflix, una site para compartir contenidos gratuitos ... ¡lo que quieran!
+* [OMDB](http://www.omdbapi.com/) - API The Open Movie Database.
+* [SPA](https://dzone.com/articles/how-single-page-web-applications-actually-work) - Single-Page Application.
+* [Bootstrap](https://getbootstrap.com/) - JavaScript framework for design.
+* [Mobile first](https://darwindigital.com/mobile-first-versus-responsive-web-design/) - Mobile First Web Design.
 
-## Consideraciones generales
+## Reference 📌
 
-- Este proyecto se debe resolver en equipos de 4 o 5 personas
-- Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
+We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge)- as a reference to the talent fest challenge.
 
-## Objetivos de aprendizaje
+## Authors ✒️
 
-- Enfrentarlas a un reto de corta duración en el que pongan
-  en práctica todo lo aprendido hasta ahora.
-  
-- Que apliquen sus creatividad, ingenio y capacidad de solicionar problemas,
-  para resolver un reto real.
-  
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
+_This project was built with the collaboration of..._
 
-## Entregables
-
-- Repositorio en github
-- Url publica de despliegue del proyecto
-
-## Restricciones técnicas
-
-Ninguna
+* **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
+* **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
+* **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
+* **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
