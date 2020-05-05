@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/MonseSalasVi/GDL004-movie-challenge#readme",
   "dependencies": {
-    "editorconfig": "^0.15.3"
+    "editorconfig": "^0.15.3",
+    "fetch": "^1.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
