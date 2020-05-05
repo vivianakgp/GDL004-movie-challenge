@@ -17,7 +17,13 @@ const changeView = (route) => {
     case "#/Kids":
       container.appendChild(components.kids())
       break;
-    default:container.appendChild(components.home())
+      case "#/home":
+      container.appendChild(components.home())
+      break;
+      case "#/random":
+      container.appendChild(components.random())
+      break;
+    default:container.appendChild(components.start())
       break;
 
   }

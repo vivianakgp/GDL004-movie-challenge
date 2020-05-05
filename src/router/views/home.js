@@ -1,28 +1,23 @@
+/* import { example } from '../../src/example.js'; */
+
 export default () => {
   const viewHome = `
-  <h2 class="text-center">¡Bienvenido a nuestra Home</h2>`;
+  <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>`;
 
-  const btnKids = document.createElement('a')
-  btnKids.setAttribute('href','#/Kids')
-  btnKids.innerHTML= 'ir a kids'
-  const btnAdult = document.createElement('a')
-  btnAdult.setAttribute('href','#/Adult')
-  btnAdult.innerHTML= 'ir a Adult'
+
+  
   const divElemt = document.createElement('div');
-  divElemt.classList.add('position')
-  
-  
   divElemt.innerHTML = viewHome;
-  divElemt.appendChild(btnKids)
-  divElemt.appendChild(btnAdult)
   return divElemt;
 };
 
-// export default () => {
-//   `<div>
-//     <h1> Hola soy el home </h1>
-//
-//     <button href='#/Kids'>  </button>
-//     <button href='#/Adultsids'>  </button>
-//     </div>`
-// }
+/* for (let movie of example) {
+  const template = document.createElement('div');
+  template.classList.add('Movie');
+  template.innerHTML = '<img src="' + movie.img + '"> <h1>' + movie.name + '</h1>' + '<h1>' + "Name: " + movie.contry +
+  '</h1>' + '<h1>' + " Type: " + movie.languaje + '</h1>'
+  
+  document.getElementById('container').appendChild(template); 
+ 
+};
+*/
