@@ -2,7 +2,7 @@
 const data = fetch('https://api.stoplight.io/v1/versions/9WaNJfGpnnQ76opqe/export/oas.json')
 //const searchValue= document.getElementById('inputSearch').value
 
-const searchValue = () =>{
+const searchValueF = () =>{
   const searchValue= document.getElementById('inputSearch').value
   console.log(searchValue)
   console.log(data)
@@ -10,7 +10,14 @@ const searchValue = () =>{
 
 export default () => {
   const viewHome = `
-  <h2 class="text-center">¡Bienvenido a nuestra Home</h2>`;
+  <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>`;
+
+  // let movies = ''
+  //  for (let movie of example.results) {
+  //   movies +=  '<img src="' + movie.image + '"> <h1>' + movie.name + '</h1>' + '<h1>' + "Country: " + movie.Country +
+  //   '</h1>' + '<h1>' + " Language: " + movie.Language + '</h1>'
+    
+  // };
 
   const btnKids = document.createElement('a')
   btnKids.setAttribute('href','#/Kids')
@@ -38,7 +45,7 @@ export default () => {
 
   const btnSearch = document.createElement('button')
   btnSearch.innerHTML = 'buscar'
-  btnSearch.addEventListener('click', () => (searchValue()))
+  btnSearch.addEventListener('click', () => (searchValueF()))
   const formSearch = document.createElement('form')  //form que contiene el input
   
   const textSearch = document.createElement('h3')   //texto sobre el search
@@ -74,11 +81,4 @@ export default () => {
   
 };
 
-// export default () => {
-//   `<div>
-//     <h1> Hola soy el home </h1>
-//
-//     <button href='#/Kids'>  </button>
-//     <button href='#/Adultsids'>  </button>
-//     </div>`
-// }
+
