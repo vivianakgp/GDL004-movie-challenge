@@ -1,8 +1,19 @@
 export default () => {
-  `<div>
-    <h1> Soy el kids </h1>
+  const viewHome = `
+  <h2 class="text-center">¡Bienvenido a nuestra Kids</h2>`;
 
-    <button href='#/Kids'> kids  </button>
-    <button href='#/Home'> home </button>
-    </div>`
-}
+  const btnHome = document.createElement('a')
+  btnHome.setAttribute('href','#/Home')
+  btnHome.innerHTML= 'ir a Home'
+  const btnAdult = document.createElement('a')
+  btnAdult.setAttribute('href','#/Adult')
+  btnAdult.innerHTML= 'ir a Adult'
+  const divElemt = document.createElement('div');
+  divElemt.classList.add('position')
+  
+  
+  divElemt.innerHTML = viewHome;
+  divElemt.appendChild(btnHome)
+  divElemt.appendChild(btnAdult)
+  return divElemt;
+};
