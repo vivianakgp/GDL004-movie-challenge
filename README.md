@@ -6,10 +6,11 @@ _Find the best movies at maximum spped._
 ### Description 📋
 
 _Get a random recommendation by clicking a button or use the search engine to find your favorite movies._
-### User stories 📖
-_1° User can get ramndomly recommendation._
-_2° User can search movie through the search engine_
 
+### User stories 📖
+_1° User can get ramndomly recommendation._</br>
+_2° User can search movie through the search engine_
+![prototype](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/prototype-movie-challenge.png)
 
 ## Built with 🛠️
 
@@ -22,6 +23,7 @@ _2° User can search movie through the search engine_
 
 We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge)- as a reference to the talent fest challenge.
 
+
 ## Authors ✒️
 
 _This project was built with the collaboration of..._
@@ -30,3 +32,6 @@ _This project was built with the collaboration of..._
 * **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
 * **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
 * **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
+
+## tools 🔧
+![trello](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/trello%20movie-app.png)
