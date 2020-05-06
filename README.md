@@ -1,6 +1,7 @@
 # MOVIE APP 🍿
 
 #### Index
+- [Authors](#Authors)
 - [Introduction](#Introduction)
 - [Project overview](#Project-overview)
 - [App description](#App-description)
@@ -9,10 +10,16 @@
 - [Organization method](#Organization-method)
 - [Tools](#Tools)
 - [Reference](#Reference)
-- [Authors](#Authors)
+
 
 _Find the best movies at maximum spped._
+## Authors
+_This project was built with the collaboration of..._
 
+* **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
+* **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
+* **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
+* **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
 ## Introduction
 There are so many movies that sometimes we can't decide which one to watch.
 So, Movie App shows you a random movie to watch. It also shows you information about what it's about, how long it lasts, authors, etc.
@@ -58,7 +65,7 @@ On the home page it provides you with information about other movies, there is a
 ![userStory2](link)
 
 
-## Hight-fidelity prototype
+## High-fidelity prototype
 - Main tool figma
 
 ![figmarandomsearch](link)
@@ -88,10 +95,4 @@ On the home page it provides you with information about other movies, there is a
 We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge) - as a reference to the talent fest challenge.
 
 
-## Authors
-_This project was built with the collaboration of..._
 
-* **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
-* **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
-* **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
-* **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)

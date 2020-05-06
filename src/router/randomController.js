@@ -1,3 +1,4 @@
+//antes se llamaba data.js
 let movieArray = ["Star Wars", "Harry Potter", "Game of Thrones"];
 let randomNumber = Math.floor(Math.random() * movieArray.length - 1) + 1;
 let randomMovie = movieArray[randomNumber];

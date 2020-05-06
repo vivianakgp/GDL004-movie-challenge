@@ -1,3 +1,4 @@
+// antes era homecontent.js
 export default () => {
 
     let randomWords = ['cat', 'dog', 'soccer', 'black', 'spy', 'run', 'play', 'friend', 'war', 'christmas', 'winter', 'summer', 'heroes', 'rabbit', 'stranger', 'city'];
