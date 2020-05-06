@@ -35,8 +35,10 @@ export default () => {
   const divElemt = document.createElement("div");
   divElemt.classList.add("position");
 
-  divElemt.innerHTML = viewHome;
+  
+  divElemt.appendChild(btnHome)
   divElemt.appendChild(btnRandom);
-  divElemt.appendChild(btnHome);
+  divElemt.innerHTML = viewHome;
+  ;
   return divElemt;
 };

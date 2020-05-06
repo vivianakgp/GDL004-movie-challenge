@@ -1,4 +1,5 @@
 import { components } from "../views/indexViews.js";
+import homeContent from "../homeContent.js";
 
 const changeView = (route) => {
   const container = document.getElementById("container");
@@ -7,6 +8,7 @@ const changeView = (route) => {
   switch (route) {
       case "#/home":
       container.appendChild(components.home())
+      homeContent();
       break;
       case "#/random":
       container.appendChild(components.random())
