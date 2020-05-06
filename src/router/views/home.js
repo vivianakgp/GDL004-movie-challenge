@@ -1,20 +1,12 @@
-import example from '../../example.js';
-
 export default () => {
   const viewHome = `
-  <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>`;
-
-  let movies = ''
-   for (let movie of example.results) {
-    movies +=  '<img src="' + movie.image + '"> <h1>' + movie.name + '</h1>' + '<h1>' + "Country: " + movie.Country +
-    '</h1>' + '<h1>' + " Language: " + movie.Language + '</h1>'
-    
-  };
-
-    
+  <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>
+  <input type="text" id="search">
+    <button id="btnSearch">Search</button>
+    <div id="contentBox"></div>
+  `;
   const divElemt = document.createElement('div');
-  divElemt.innerHTML = movies;
+  divElemt.innerHTML = viewHome;
   return divElemt;
 };
-
-
+              

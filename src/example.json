@@ -17,7 +17,7 @@
         },
         {
             "id": 2,
-            "name": "black Swan",
+            "name": "Black Swan",
             "Language": "English",
             "Country": "United States",
             "gender": "drama",
@@ -35,7 +35,7 @@
         },
         {
             "id": 4,
-            "name": "eternal sunshine of the spotless mind",
+            "name": "Eternal sunshine of the spotless mind",
             "Language": "English",
             "Country": "United States",
             "gender": "drama",
@@ -44,7 +44,7 @@
         },
         {
             "id": 5,
-            "name": "avengers Endgame",
+            "name": "Avengers Endgame",
             "Language": "English",
             "Country": "United States",
             "gender": "drama",
