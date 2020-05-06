@@ -1,31 +1,3 @@
-function getMovie(searchUser) {
-  //fetch("http://www.omdbapi.com/?apikey=a312c6a8&type=movie&s=" + searchUser)
-
-
-  fetch('http://www.omdbapi.com/?apikey=a312c6a8&type=movie&s=star+wars')
-    .then(response => response.json().then(data => ({
-        data: data
-      }))
-      .then(res => {
-        const infoMovie = res.data.Search
-        console.log(infoMovie)
-      }).catch(err => {
-        console.log(err)
-      })
-    )
-}
-
-// Retorna el valor de search
-const searchValueF = (e) => {
-  const searchUser = document.getElementById('inputSearch').value
-  if (searchUser === '')
-    //alert('Ingresa una pelicula plis bebe')
-    //console.log(searchUser)
-    getMovie()
-
-
-}
-
 export default () => {
   const viewHome = `
   <h2 class="text-center">¡Bienvenido a nuestra Home!</h2>`;
@@ -63,7 +35,7 @@ export default () => {
 
   const btnSearch = document.createElement('button')
   btnSearch.innerHTML = 'buscar'
-  btnSearch.addEventListener('click', searchValueF)
+  btnSearch.addEventListener('click', console.log('hola'))
   const formSearch = document.createElement('form') //form que contiene el input
 
   const textSearch = document.createElement('h3') //texto sobre el search
