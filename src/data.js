@@ -1,4 +1,4 @@
-let movieArray = ["Star Wars", "Harry Potter", "Game of Thrones"];
+let movieArray = ["a", "dog", "Star Wars", "Harry Potter", "Game of Thrones"];
 let randomNumber = Math.floor(Math.random() * movieArray.length - 1) + 1;
 let randomMovie = movieArray[randomNumber];
 

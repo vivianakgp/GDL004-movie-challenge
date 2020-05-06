@@ -2,14 +2,15 @@ import { getData } from "../../data.js";
 
 let movie = [];
 
+//simular asincronía
 getData().then((data) => {
   movie = data;
   console.log(movie);
 });
 
-let image = movie.Poster;
+/*let image = movie.Poster;
 
-console.log(document.getElementById("moviePoster"));
+console.log(document.getElementById("moviePoster"));*/
 /*
 if (image !== "N/A") {
   document.getElementById("moviePoster").setAttribute("src", image);
