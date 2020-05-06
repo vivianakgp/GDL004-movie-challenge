@@ -1,4 +1,3 @@
-//router
 import { changeView } from "./router/router.js";
 
 const init = () => {

@@ -10,4 +10,6 @@ const getData = async () => {
   return data;
 };
 
+
 export { getData, randomMovie };
+
