@@ -6,6 +6,10 @@ _Find the best movies at maximum spped._
 ### Description 📋
 
 _Get a random recommendation by clicking a button or use the search engine to find your favorite movies._
+### User stories 📖
+_1° User can get ramndomly recommendation._
+_2° User can search movie through the search engine_
+
 
 ## Built with 🛠️
 

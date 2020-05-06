@@ -1,21 +1,17 @@
-import { components } from "./views/indexViews.js";
+import { components } from "../views/indexViews.js";
 
 const changeView = (route) => {
   const container = document.getElementById("container");
   container.innerHTML = "";
 
   switch (route) {
-    // case "#/Home":
-    //   container.appendChild(components.home())
-    //   break;
-    case "#/Adult":
-      container.appendChild(components.adult());
+      case "#/home":
+      container.appendChild(components.home())
       break;
-    case "#/Kids":
-      container.appendChild(components.kids());
+      case "#/random":
+      container.appendChild(components.random())
       break;
-    default:
-      container.appendChild(components.home());
+    default:container.appendChild(components.start())
       break;
   }
   return null;
