@@ -13,7 +13,7 @@ const getData = async () => {
 const dataAssignment = () => {
   getData().then((data) => {
     movieData = data;
-    console.log(movieData.Writer);
+    //console.log(movieData.Writer);
   });
 };
 
