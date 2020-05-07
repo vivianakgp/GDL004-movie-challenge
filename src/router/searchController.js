@@ -11,7 +11,7 @@ export default () => {
             .then(response => response.json())
             .then(data => {
                 contentBox.innerHTML = ''
-                console.log(data);
+                //console.log(data);
                 if (data.Error) {
                     contentBox.innerHTML += `<h1>Error: ${data.Error}</h1>`;
                     return;
