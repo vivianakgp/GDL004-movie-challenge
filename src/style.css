@@ -78,7 +78,6 @@ body {
   margin-top: 15px;
 }
 
-#search,
-#btnSearch {
+#search, #btnSearch {
   display: inline-block !important;
 }

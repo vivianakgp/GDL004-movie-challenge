@@ -1,10 +1,25 @@
 // antes era homecontent.js
 export default () => {
-
-    let randomWords = ['cat', 'dog', 'soccer', 'black', 'spy', 'run', 'play', 'friend', 'war', 'christmas', 'winter', 'summer', 'heroes', 'rabbit', 'stranger', 'city'];
-    let item = randomWords[Math.floor(Math.random() * randomWords.length)];
-    showMovies(item);
-
+  let randomWords = [
+    "cat",
+    "dog",
+    "soccer",
+    "black",
+    "spy",
+    "run",
+    "play",
+    "friend",
+    "war",
+    "christmas",
+    "winter",
+    "summer",
+    "heroes",
+    "rabbit",
+    "stranger",
+    "city",
+  ];
+  let item = randomWords[Math.floor(Math.random() * randomWords.length)];
+  showMovies(item);
     function showMovies(searchWord) {
         searchWord = searchWord.trim();
         fetch(`http://www.omdbapi.com/?s=${searchWord}&apikey=3b40ef2f`)
@@ -24,7 +39,7 @@ export default () => {
                         <h5 class="card-title">${movie.Title}</h5>
                         <p class="card-text">${movie.Year}</p>
                         <img src="${movie.Poster}" class="card-img-top">
-                        <button href="https://www.netflix.com/mx-en/" type="button" id="btnWatch" class="btn btn-danger ">watch movie</button>
+                        <a href="https://www.netflix.com/mx-en/" type="button" id="btnWatch" class="btn btn-danger ">watch movie</a>
                         
                     </div>   
                     </div>
@@ -42,4 +57,3 @@ export default () => {
         showMovies(inputText);
     });
 };
-
