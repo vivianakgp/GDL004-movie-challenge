@@ -1,5 +1,5 @@
 import { components } from "../views/indexViews.js";
-import homeContent from "./searchController.js/index.js.js";
+import homeContent from "./searchController.js";
 
 const changeView = (route) => {
   const container = document.getElementById("container");
