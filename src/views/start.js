@@ -1,12 +1,38 @@
 export default () => {
-  const viewStart = document.createElement("div");
-  viewStart.innerHTML = `
-    <div id='startContainer'>
-      <a href='#/home'>x</a>
-      <h1 class="text-center">CAN'T DECIDE WHAT TO WATCH?</h1>
-      <a id='random' href='#/random'>Pick a movie for me!</a>
-    </div>
-    `;
 
-  return viewStart;
+    //elemento h2 es la pregunta!
+  const question = document.createElement("h2");
+    question.innerHTML = "CAN'T </br>DECIDE</br> WHAT TO</br> WATCH?";
+    question.setAttribute("classs","question");
+    //boton obtener aleatoreo
+  const btnRandom = document.createElement("a");
+   btnRandom.setAttribute("href", "#/random");
+   btnRandom.setAttribute("class","btn btn-danger btnRandom");
+   btnRandom.innerHTML = "Pick a movie for me!";
+    //div para el btn home
+  const divBtnHome = document.createElement("div");
+    divBtnHome.setAttribute("class","divBtnHome");
+    //btn a home
+  const btnHome = document.createElement("a");
+    btnHome.setAttribute("href", "#/home");
+    btnHome.setAttribute("class","btn btn-outline-secondary btnHome");
+    btnHome.innerHTML = "X";
+    //div padre  &times;
+  const divElemt = document.createElement("div");
+  divElemt.setAttribute("class","divElemt");
+  //divElemt.classList.add("position");
+
+
+  //const br = document.createElement('br')
+  //divElemt.innerHTML = viewHome;
+  //divElemt.appendChild(br)
+ 
+  divElemt.appendChild(divBtnHome);
+  divBtnHome.appendChild(btnHome);
+  divElemt.appendChild(question);
+  divElemt.appendChild(btnRandom);
+ 
+
+  return divElemt;
+
 };
