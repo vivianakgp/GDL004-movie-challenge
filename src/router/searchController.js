@@ -1,3 +1,4 @@
+// antes era homecontent.js
 export default () => {
 
     let randomWords = ['cat', 'dog', 'soccer', 'black', 'spy', 'run', 'play', 'friend', 'war', 'christmas', 'winter', 'summer', 'heroes', 'rabbit', 'stranger', 'city'];
@@ -10,7 +11,7 @@ export default () => {
             .then(response => response.json())
             .then(data => {
                 contentBox.innerHTML = ''
-                console.log(data);
+                //console.log(data);
                 if (data.Error) {
                     contentBox.innerHTML += `<h1>Error: ${data.Error}</h1>`;
                     return;
