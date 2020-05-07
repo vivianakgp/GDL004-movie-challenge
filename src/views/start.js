@@ -3,7 +3,7 @@ export default () => {
     //elemento h2 es la pregunta!
   const question = document.createElement("h2");
     question.innerHTML = "CAN'T </br>DECIDE</br> WHAT TO</br> WATCH?";
-    question.setAttribute("classs","question");
+    question.setAttribute("class","question");
     //boton obtener aleatoreo
   const btnRandom = document.createElement("a");
    btnRandom.setAttribute("href", "#/random");

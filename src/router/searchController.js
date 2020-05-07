@@ -15,25 +15,28 @@ export default () => {
                     contentBox.innerHTML += ` <p class="lead">Error: ${data.Error}</p>`;
                     return;
                 }
-                let content = '';
+                let content = '<div class="row">';
                 for (let movie of data.Search) {
                     let templateMovie = `
-                    <div class="card border-dark mb-3" id="cardsSearch" style="max-width: 20rem;">
+                    <div class="col-sm-12 col-lg-4">
+                    <div class="card border-dark mb-3" id="cardsSearch" style="max-width: 100%;">
                         <div class="card-body">
-                        <h4 class="card-title">${movie.Title}</h4>
+                        <h5 class="card-title">${movie.Title}</h5>
                         <p class="card-text">${movie.Year}</p>
                         <img src="${movie.Poster}" class="card-img-top">
-                        <button type="button" id="btnWatch" class="btn btn-danger ">wach movie</button>
-                        <button type="button" id="btnHome" class="btn btn-outline-secondary">𐠪</button>
+                        <button href="https://www.netflix.com/mx-en/" type="button" id="btnWatch" class="btn btn-danger ">watch movie</button>
+                        
+                    </div>   
+                    </div>
                     </div>
                         `;
                         content += templateMovie;
 
                 }
-                contentBox.innerHTML += content;
+                contentBox.innerHTML += content  + '</div>';
                 });
               }
-    let bntSearch = document.getElementById('btnSearch');
+    let btnSearch = document.getElementById('btnSearch');
     btnSearch.addEventListener('click', function() {
         let inputText = document.getElementById('search').value;
         showMovies(inputText);

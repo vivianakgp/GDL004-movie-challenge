@@ -1,68 +1,84 @@
-Html{
-    margin: 4px;
+Html {
+  margin: 4px;
 }
-body{
- background-color: #222; 
+
+body {
+  background-color: #222;
 }
-/************************VIEW START**********************************/
-.divElemt{
-    /*background-color: rgba(167, 138, 138, 0.432);*/
-    justify-content: center;
-    margin-top: 100px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    
+
+/* VIEW START */
+.divElemt {
+  /*background-color: rgba(167, 138, 138, 0.432);*/
+  justify-content: center;
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100% !important;
+
 }
-.btnRandom{
-   margin-top:30px ;
-   margin-left:40px;
-   width: 250px;
-   border-radius: 10px;
+
+.btnRandom {
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 250px;
+  border-radius: 10px;
 }
-.btnHome{
+
+.btnHome {
   margin-left: 100px;
-  margin-bottom:25px;
+  margin-bottom: 25px;
   border: 2px solid white !important;
   font-size: 0.875em !important;
-  color:white !important;
+  color: white !important;
 }
-.divBtnHome{
-    /*background-color: rgba(255, 235, 205, 0.336);*/
-    margin-left: 170px;
-    margin-right: 10px;
+
+.divBtnHome {
+  /*background-color: rgba(255, 235, 205, 0.336);*/
+  margin-left: 170px;
+  margin-right: 10px;
 }
+
 /****************************************************/
-.divRandom{
-    margin-top: 20px;
+.divRandom {
+  margin-top: 20px;
 }
-.btnWatchMovie{
-    margin-left:40%;
-    
+
+.btnWatchMovie {
+  margin-left: 40%;
+
 }
-.icon{
-    width: 10px;
-    height: 10px;
+
+.icon {
+  width: 10px;
+  height: 10px;
 }
-#movieCard{
-    margin-top: 20px;
-   
+
+#movieCard {
+  margin-top: 20px;
+
 }
-.cars{
-    border-radius: 15px !important;
+
+.cars {
+  border-radius: 15px !important;
 }
+
 #moviePoster {
-    border-radius: 15px ;
-    margin-bottom: 1rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
 }
-#cardsSearch{
-    
-    border-radius: 15px !important; 
-    margin-bottom: 15px !important;
+
+#cardsSearch {
+
+  border-radius: 15px !important;
+  margin-bottom: 15px !important;
 }
-#btnWatch{
-    margin-top: 15px;
+
+#btnWatch,
+#btnHome {
+  margin-top: 15px;
 }
-#btnHome{
-    margin-top: 15px;
-    border: 5px solid white;
+
+#search,
+#btnSearch {
+  display: inline-block !important;
 }
