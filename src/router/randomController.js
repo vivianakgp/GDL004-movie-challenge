@@ -35,7 +35,7 @@ export default () => {
 
   random().then((movie) => {
     let randomTemplate = `
-    <div class="card border-danger mb-3 cars" style="max-width: 20rem;">
+    <div class="card border-danger mb-3 cars" style="max-width: 100%">
   
     <div class="card-body">
       <h4 class="text-danger">${movie.Title}</h4>
@@ -48,8 +48,6 @@ export default () => {
       <a href="https://www.netflix.com/mx-en/" class="btn btn-danger btnWatchMovie">Watch movie</a>
       <a href="#/home"class="btn btn-outline-secondary btnL">𐠪</a>
     </div>
-    
-
     `;
     movieCard.innerHTML = randomTemplate;
 
