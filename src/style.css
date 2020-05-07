@@ -32,5 +32,31 @@ body{
 }
 .btnWatchMovie{
     margin-left:40%;
+    
 }
-
+.icon{
+    width: 10px;
+    height: 10px;
+}
+#movieCard{
+    margin-top: 20px;
+   
+}
+.cars{
+    border-radius: 15px !important;
+}
+#moviePoster {
+    border-radius: 15px ;
+    margin-bottom: 1rem;
+}
+#cardsSearch{
+    
+    border-radius: 15px !important; 
+    margin-bottom: 15px !important;
+}
+#btnWatch{
+    margin-top: 15px;
+}
+#btnHome{
+    margin-top: 15px;
+}
