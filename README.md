@@ -43,7 +43,11 @@ On the random page it provides you with a random movie and gives you information
 
 On the home page it provides you with information about other movies, there is also a search bar and you can enter the title of a movie and get information about it.
 
-![Foto de las pag terminada](link)
+![viewstart](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/viewstart.png)
+![viewrandom](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/vieweandom.png)
+![viewrandombtn](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/viewrandombtn.png)
+![viwesearch](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/viewsearch.png)
+![viewsearchmenu](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/viewsearchmenu.png)
 
 
 ## User stories
@@ -89,8 +93,8 @@ On the home page it provides you with information about other movies, there is a
 * [Mobile first](https://darwindigital.com/mobile-first-versus-responsive-web-design/) - Mobile First Web Design.
 * [Figma](https://www.figma.com/) -Figma
 * [Trello](https://trello.com/) -Trello
-* [new](link) -new
-* [new](link) -new
+<!-- * [new](link) -new
+* [new](link) -new -->
 
 
 ## Reference
