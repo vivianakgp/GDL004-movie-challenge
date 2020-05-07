@@ -1,0 +1,29 @@
+body{
+ background-color: #222; 
+
+}
+/************************VIEW START**********************************/
+.divElemt{
+    /*background-color: rgba(167, 138, 138, 0.432);*/
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+.btnRandom{
+   margin-top:30px ;
+   margin-left:40px;
+   width: 250px;
+   border-radius: 10px;
+}
+.btnHome{
+  margin-left: 100px;
+  margin-bottom:25px;
+}
+.divBtnHome{
+    /*background-color: rgba(255, 235, 205, 0.336);*/
+    margin-left: 170px;
+    margin-right: 10px;
+}
+/****************************************************/
