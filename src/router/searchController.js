@@ -33,7 +33,7 @@ export default () => {
                 contentBox.innerHTML += content;
                 });
               }
-    let bntSearch = document.getElementById('btnSearch');
+    let btnSearch = document.getElementById('btnSearch');
     btnSearch.addEventListener('click', function() {
         let inputText = document.getElementById('search').value;
         showMovies(inputText);
