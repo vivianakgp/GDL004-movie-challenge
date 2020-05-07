@@ -51,7 +51,20 @@ On the home page it provides you with information about other movies, there is a
 
  So that the user can see everything in the catalogue.
 
+<<<<<<< HEAD
 ![userStory1](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/userStory1.png)
+=======
+<<<<<<< HEAD
+### User stories 📖
+_1° User can get ramndomly recommendation._</br>
+_2° User can search movie through the search engine_
+![prototype](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/prototype-movie-challenge.png)
+
+## Built with 🛠️
+=======
+![userStory1](link)
+>>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
+>>>>>>> 1caf0d421f89436abc3897ca9b8328625b8523f3
 
 
 * **User Story 2: Randomize**
@@ -95,5 +108,20 @@ On the home page it provides you with information about other movies, there is a
 
 We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge) - as a reference to the talent fest challenge.
 
+<<<<<<< HEAD
+
+## Authors ✒️
+=======
+>>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
 
 
+<<<<<<< HEAD
+* **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
+* **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
+* **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
+* **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
+
+## tools 🔧
+![trello](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/trello%20movie-app.png)
+=======
+>>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
