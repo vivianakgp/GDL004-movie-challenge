@@ -4,7 +4,7 @@ export default () => {
     let randomWords = ['cat', 'dog', 'soccer', 'black', 'spy', 'run', 'play', 'friend', 'war', 'christmas', 'winter', 'summer', 'heroes', 'rabbit', 'stranger', 'city'];
     let item = randomWords[Math.floor(Math.random() * randomWords.length)];
     showMovies(item);
-  
+
     function showMovies(searchWord) {
         searchWord = searchWord.trim();
         fetch(`http://www.omdbapi.com/?s=${searchWord}&apikey=3b40ef2f`)
@@ -25,10 +25,10 @@ export default () => {
                         <img src="${movie.Poster}" class="card-img-top">
                         <button type="button" id="btnWatch" class="btn btn-danger ">wach movie</button>
                         <button type="button" id="btnHome" class="btn btn-outline-secondary">𐠪</button>
-                        
                     </div>
                         `;
                         content += templateMovie;
+
                 }
                 contentBox.innerHTML += content;
                 });

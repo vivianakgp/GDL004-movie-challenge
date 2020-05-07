@@ -13,6 +13,7 @@
 
 
 _Find the best movies at maximum spped._
+
 ## Authors
 _This project was built with the collaboration of..._
 
@@ -20,6 +21,8 @@ _This project was built with the collaboration of..._
 * **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
 * **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
 * **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
+
+
 ## Introduction
 There are so many movies that sometimes we can't decide which one to watch.
 So, Movie App shows you a random movie to watch. It also shows you information about what it's about, how long it lasts, authors, etc.
@@ -51,21 +54,7 @@ On the home page it provides you with information about other movies, there is a
 
  So that the user can see everything in the catalogue.
 
-<<<<<<< HEAD
 ![userStory1](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/userStory1.png)
-=======
-<<<<<<< HEAD
-### User stories 📖
-_1° User can get ramndomly recommendation._</br>
-_2° User can search movie through the search engine_
-![prototype](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/prototype-movie-challenge.png)
-
-## Built with 🛠️
-=======
-![userStory1](link)
->>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
->>>>>>> 1caf0d421f89436abc3897ca9b8328625b8523f3
-
 
 * **User Story 2: Randomize**
 
@@ -75,7 +64,7 @@ _2° User can search movie through the search engine_
 
  So that the user can know what content to see
 
-![userStory2](https://github.com/MonseSalasVi/GDL004-movie-challenge/blob/develop-monse/src/img/userStory2.png)
+![userStory2](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/userStory2.png)
 
 
 ## High-fidelity prototype
@@ -89,7 +78,7 @@ _2° User can search movie through the search engine_
 ![colorpalette](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/colorpalette.jpeg)
 
 ## Organization method
- ![diagrama](link)
+ ![diagrama](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/master/src/img/metodolia.png)
 
 
 ## Tools
@@ -108,20 +97,4 @@ _2° User can search movie through the search engine_
 
 We use [GDL004-movie-challenge](https://github.com/Laboratoria/GDL004-movie-challenge) - as a reference to the talent fest challenge.
 
-<<<<<<< HEAD
 
-## Authors ✒️
-=======
->>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
-
-
-<<<<<<< HEAD
-* **Claudia Custodio** - [Dionisiaca](https://github.com/Dionisiaca)
-* **Lorena Alvarez** - [LorenaAlvarez](https://github.com/LorenaAlvarez)
-* **Monse Salas** - [MonseSalasVi](https://github.com/MonseSalasVi)
-* **Viviana Gomez** - [vivianakgp](https://github.com/vivianakgp)
-
-## tools 🔧
-![trello](https://github.com/vivianakgp/GDL004-movie-challenge/blob/master/src/img/trello%20movie-app.png)
-=======
->>>>>>> 3bf57931c137d379806fe4f2b477955226244fce
