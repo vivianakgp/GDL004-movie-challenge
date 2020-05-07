@@ -51,7 +51,7 @@ On the home page it provides you with information about other movies, there is a
 
  So that the user can see everything in the catalogue.
 
-![userStory1](link)
+![userStory1](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/userStory1.png)
 
 
 * **User Story 2: Randomize**
@@ -62,20 +62,21 @@ On the home page it provides you with information about other movies, there is a
 
  So that the user can know what content to see
 
-![userStory2](link)
+![userStory2](https://github.com/MonseSalasVi/GDL004-movie-challenge/blob/develop-monse/src/img/userStory2.png)
 
 
 ## High-fidelity prototype
 - Main tool figma
 
-![figmarandomsearch](link)
-![figmahome](link)
+![figmarandomsearch](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/figmastart.png)
+
+![figmahome](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/figmarandomsearch.png)
 
 - Color palette
-![colorpalette](link)
+![colorpalette](https://raw.githubusercontent.com/MonseSalasVi/GDL004-movie-challenge/develop-monse/src/img/colorpalette.jpeg)
 
 ## Organization method
- **pendiente**
+ ![diagrama](link)
 
 
 ## Tools
