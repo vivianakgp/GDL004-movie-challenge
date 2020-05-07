@@ -93,8 +93,8 @@ On the home page it provides you with information about other movies, there is a
 * [Mobile first](https://darwindigital.com/mobile-first-versus-responsive-web-design/) - Mobile First Web Design.
 * [Figma](https://www.figma.com/) -Figma
 * [Trello](https://trello.com/) -Trello
-* [new](link) -new
-* [new](link) -new
+<!-- * [new](link) -new
+* [new](link) -new -->
 
 
 ## Reference
