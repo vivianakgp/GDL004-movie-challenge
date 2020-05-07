@@ -2,13 +2,14 @@ body{
  background-color: #222; 
 
 }
-/************************VIEW START**********************************/
+/* VIEW START */
 .divElemt{
     /*background-color: rgba(167, 138, 138, 0.432);*/
     justify-content: center;
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 50px;
+    width: 100% !important;
     
 }
 .btnRandom{
@@ -54,9 +55,10 @@ body{
     border-radius: 15px !important; 
     margin-bottom: 15px !important;
 }
-#btnWatch{
+#btnWatch, #btnHome {
     margin-top: 15px;
 }
-#btnHome{
-    margin-top: 15px;
+
+#search, #btnSearch {
+    display: inline-block !important;
 }
