@@ -38,7 +38,7 @@ export default () => {
 
   random().then((movie) => {
     let randomTemplate = `
-    <div class="card border-danger mb-3 cars" style="max-width: 20rem;">
+    <div class="card border-danger mb-3 cars" style="max-width:100%;">
 
     <div class="card-body">
       <h4 class="text-danger">${movie.Title}</h4>
